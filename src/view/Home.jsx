@@ -104,13 +104,13 @@ function Home() {
           <img className="header-logo" alt="" src={AmrLogo}></img>
         </div>
 
-        <ul className="flex">
+        <ul className="flex mt-5 md:mt-0">
           <li>Home</li>
           <li onClick={() => scrollToAboutUs()}>About Us</li>
           <li onClick={() => scrollToContactUs()}>Contact Us</li>
         </ul>
       </div>
-      <div className="content-container-style mx-10 px-8">
+      <div className="content-container-style  md:mx-10 md:px-8">
         <div>
           <div>
             <ul id="headinglist" className="content-container-style-ul">
@@ -127,8 +127,9 @@ function Home() {
                         src={e.image}
                         alt=""
                       ></img>
-                      <div className="tails-menu-image-shade"></div>
-                      <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      <div className="tails-menu-image-shade">
+                        <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      </div>
                     </div>
                   </li>
                 );
@@ -143,10 +144,14 @@ function Home() {
                         <li>
                           <div>
                             <i className="fas fa-arrow-alt-circle-right"></i>
-                            <span className="ml-3 font-bold">{e.subHead}</span>
+                            <span className="ml-3 text-xs md:text-sm font-bold">
+                              {e.subHead}
+                            </span>
                           </div>
                           <div>
-                            <p className="ml-7 text-sm">{e.subContent}</p>
+                            <p className="ml-7  text-xs md:text-sm text-sm">
+                              {e.subContent}
+                            </p>
                           </div>
                         </li>
                       );
@@ -163,10 +168,14 @@ function Home() {
                         <li>
                           <div>
                             <i className="fas fa-arrow-alt-circle-right"></i>
-                            <span className="ml-3 font-bold">{e.subHead}</span>
+                            <span className="ml-3 text-xs md:text-sm font-bold">
+                              {e.subHead}
+                            </span>
                           </div>
                           <div>
-                            <p className="ml-7 text-sm">{e.subContent}</p>
+                            <p className="ml-7 text-xs md:text-sm text-sm">
+                              {e.subContent}
+                            </p>
                           </div>
                         </li>
                       );
@@ -192,8 +201,9 @@ function Home() {
                         src={e.image}
                         alt=""
                       ></img>
-                      <div className="tails-menu-image-shade"></div>
-                      <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      <div className="tails-menu-image-shade">
+                        <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      </div>
                     </div>
                   </li>
                 );
@@ -208,10 +218,14 @@ function Home() {
                         <li>
                           <div>
                             <i className="fas fa-arrow-alt-circle-right"></i>
-                            <span className="ml-3 font-bold">{e.subHead}</span>
+                            <span className="ml-3 text-xs md:text-sm font-bold">
+                              {e.subHead}
+                            </span>
                           </div>
                           <div>
-                            <p className="ml-7 text-sm">{e.subContent}</p>
+                            <p className="ml-7 text-xs md:text-sm text-sm">
+                              {e.subContent}
+                            </p>
                           </div>
                         </li>
                       );
@@ -233,8 +247,9 @@ function Home() {
                         src={e.image}
                         alt=""
                       ></img>
-                      <div className="tails-menu-image-shade"></div>
-                      <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      <div className="tails-menu-image-shade">
+                        <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      </div>
                     </div>
                   </li>
                 );
@@ -249,10 +264,14 @@ function Home() {
                         <li>
                           <div>
                             <i className="fas fa-arrow-alt-circle-right"></i>
-                            <span className="ml-3 font-bold">{e.subHead}</span>
+                            <span className="ml-3 text-xs md:text-sm font-bold">
+                              {e.subHead}
+                            </span>
                           </div>
                           <div>
-                            <p className="ml-7 text-sm">{e.subContent}</p>
+                            <p className="ml-7 text-xs md:text-sm text-sm">
+                              {e.subContent}
+                            </p>
                           </div>
                         </li>
                       );
@@ -274,8 +293,9 @@ function Home() {
                         src={e.image}
                         alt=""
                       ></img>
-                      <div className="tails-menu-image-shade"></div>
-                      <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      <div className="tails-menu-image-shade">
+                        <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      </div>
                     </div>
                   </li>
                 );
@@ -290,10 +310,14 @@ function Home() {
                         <li>
                           <div>
                             <i className="fas fa-arrow-alt-circle-right"></i>
-                            <span className="ml-3 font-bold">{e.subHead}</span>
+                            <span className="ml-3 text-xs md:text-sm font-bold">
+                              {e.subHead}
+                            </span>
                           </div>
                           <div>
-                            <p className="ml-7 text-sm">{e.subContent}</p>
+                            <p className="ml-7 text-xs md:text-sm text-sm">
+                              {e.subContent}
+                            </p>
                           </div>
                         </li>
                       );
@@ -315,8 +339,9 @@ function Home() {
                         src={e.image}
                         alt=""
                       ></img>
-                      <div className="tails-menu-image-shade"></div>
-                      <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      <div className="tails-menu-image-shade">
+                        <h1 className="tails-menu-txt-style">{e.name}</h1>
+                      </div>
                     </div>
                   </li>
                 );
@@ -331,10 +356,14 @@ function Home() {
                         <li>
                           <div>
                             <i className="fas fa-arrow-alt-circle-right"></i>
-                            <span className="ml-3 font-bold">{e.subHead}</span>
+                            <span className="ml-3 text-xs md:text-sm font-bold">
+                              {e.subHead}
+                            </span>
                           </div>
                           <div>
-                            <p className="ml-7 text-sm">{e.subContent}</p>
+                            <p className="ml-7 text-xs md:text-sm text-sm">
+                              {e.subContent}
+                            </p>
                           </div>
                         </li>
                       );
@@ -345,8 +374,13 @@ function Home() {
             ) : null}
           </div>
 
-          <div className="p-5 flex mt-10 flex-col px-20 py-10" ref={aboutUsRef}>
-            <h1 className="font-bold text-2xl">OUR MISSION AND VISION</h1>
+          <div
+            className="p-5 flex mt-10 flex-col md:px-20 md:py-10"
+            ref={aboutUsRef}
+          >
+            <h1 className="font-bold text-xl md:text-2xl">
+              OUR MISSION AND VISION
+            </h1>
             <span className="mt-5">
               To become one of the efficient corporate teams globally and
               provide the most trusted support and quality service to our
@@ -357,7 +391,7 @@ function Home() {
           </div>
         </div>
         <div className="footer-container justify-between" ref={contactUsRef}>
-          <div className="flex-1 p-10 flex flex-col ml-12">
+          <div className="flex-1 p-8 md:p-10 flex flex-col md:ml-12">
             <img className="header-logo" src={AmrLogo} alt=""></img>
             <span className="text-gray-400 text-left text-sm mt-5">
               AMR  is a leading provider of company formation services in
@@ -366,7 +400,7 @@ function Home() {
               knowledge of the UAE’s operational framework
             </span>
           </div>
-          <div className="flex-1 p-10 flex flex-col items-start mr-12">
+          <div className="flex-1 p-8 md:p-10 flex flex-col items-start md:mr-12">
             <h2 className="text-xl font-bold text-gray-400">CONTACTS</h2>
             <div className="mt-5 flex items-center">
               <i className="fas fa-map-marker-alt text-gray-400"></i>

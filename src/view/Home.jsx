@@ -22,7 +22,6 @@ function Home() {
   const [subMenuArray5, setSubMenuArray5] = useState([]);
   const [menuPos1, setMenuPos1] = useState(0);
   const [headerShadow, setHeaderShadow] = useState("flex header-container");
-  const [containerTransition, setContainerTransition] = useState("");
   const aboutUsRef = useRef(null);
   const contactUsRef = useRef(null);
   const [selectedItem1, setSelectedItem1] = useState(-1);
@@ -102,7 +101,7 @@ function Home() {
     <div className="container-style">
       <div className={headerShadow}>
         <div className="flex-1 ">
-          <img className="header-logo" src={AmrLogo}></img>
+          <img className="header-logo" alt="" src={AmrLogo}></img>
         </div>
 
         <ul className="flex">
@@ -126,6 +125,7 @@ function Home() {
                       <img
                         className="tails-menu-image-style"
                         src={e.image}
+                        alt=""
                       ></img>
                       <div className="tails-menu-image-shade"></div>
                       <h1 className="tails-menu-txt-style">{e.name}</h1>
@@ -190,6 +190,7 @@ function Home() {
                       <img
                         className="tails-menu-image-style"
                         src={e.image}
+                        alt=""
                       ></img>
                       <div className="tails-menu-image-shade"></div>
                       <h1 className="tails-menu-txt-style">{e.name}</h1>
@@ -230,6 +231,7 @@ function Home() {
                       <img
                         className="tails-menu-image-style"
                         src={e.image}
+                        alt=""
                       ></img>
                       <div className="tails-menu-image-shade"></div>
                       <h1 className="tails-menu-txt-style">{e.name}</h1>
@@ -270,6 +272,7 @@ function Home() {
                       <img
                         className="tails-menu-image-style"
                         src={e.image}
+                        alt=""
                       ></img>
                       <div className="tails-menu-image-shade"></div>
                       <h1 className="tails-menu-txt-style">{e.name}</h1>
@@ -310,6 +313,7 @@ function Home() {
                       <img
                         className="tails-menu-image-style"
                         src={e.image}
+                        alt=""
                       ></img>
                       <div className="tails-menu-image-shade"></div>
                       <h1 className="tails-menu-txt-style">{e.name}</h1>
@@ -354,7 +358,7 @@ function Home() {
         </div>
         <div className="footer-container justify-between" ref={contactUsRef}>
           <div className="flex-1 p-10 flex flex-col ml-12">
-            <img className="header-logo" src={AmrLogo}></img>
+            <img className="header-logo" src={AmrLogo} alt=""></img>
             <span className="text-gray-400 text-left text-sm mt-5">
               AMR  is a leading provider of company formation services in
               UAE,and a highly experienced and competent team , well- connected

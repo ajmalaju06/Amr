@@ -390,7 +390,7 @@ function Home() {
             <div className="mt-4 flex justify-between social-media-container-style">
               <i className="fab fa-facebook-f text-gray-400 social-media-img"></i>
               <a
-                href="https://wa.me/00971564314182"
+                href="https://wa.me/00971586609293"
                 class="whatsapp_float"
                 target="_blank"
                 rel="noopener noreferrer"

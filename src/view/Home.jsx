@@ -422,7 +422,13 @@ function Home() {
               </span>
             </div>
             <div className="mt-4 flex justify-between social-media-container-style">
-              <i className="fab fa-facebook-f text-gray-400 social-media-img"></i>
+              <a
+                href="https://m.facebook.com/story.php?story_fbid=123282030013026&id=100069936883867"
+                target="_blank"
+              >
+                <i className="fab fa-facebook-f text-gray-400 social-media-img"></i>
+              </a>
+
               <a
                 href="https://wa.me/00971586609293"
                 class="whatsapp_float"
@@ -432,8 +438,10 @@ function Home() {
                 <i className="fab fa-whatsapp text-gray-400 social-media-img"></i>
               </a>
 
-              <i className="fab fa-instagram text-gray-400 social-media-img"></i>
-              <i className="fab fa-twitter text-gray-400 social-media-img"></i>
+              {/* <i className="fab fa-instagram text-gray-400 social-media-img"></i> */}
+              <a href="https://vm.tiktok.com/ZSJGQ24g3/" target="_blank">
+                <i className="fab fa-tiktok text-gray-400 social-media-img"></i>
+              </a>
             </div>
           </div>
         </div>

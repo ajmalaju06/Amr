@@ -425,6 +425,7 @@ function Home() {
               <a
                 href="https://m.facebook.com/story.php?story_fbid=123282030013026&id=100069936883867"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-facebook-f text-gray-400 social-media-img"></i>
               </a>
@@ -439,7 +440,11 @@ function Home() {
               </a>
 
               {/* <i className="fab fa-instagram text-gray-400 social-media-img"></i> */}
-              <a href="https://vm.tiktok.com/ZSJGQ24g3/" target="_blank">
+              <a
+                href="https://vm.tiktok.com/ZSJGQ24g3/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-tiktok text-gray-400 social-media-img"></i>
               </a>
             </div>
